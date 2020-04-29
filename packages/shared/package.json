@@ -1,0 +1,9 @@
+{
+    "name": "monorepo-shared",
+    "devDependencies": {
+        "less": "^3.11.1",
+        "less-loader": "^6.0.0",
+        "webpack": "^5.0.0-beta.15"
+    },
+    "dependencies": {}
+}

@@ -1,0 +1,18 @@
+{
+    "name": "monorepo",
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "scripts": {
+        "commit": "commit"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-conventional": "^8.3.4",
+        "@commitlint/prompt-cli": "^8.3.5",
+        "husky": "^4.2.5",
+        "lerna": "^3.20.2"
+    }
+}
